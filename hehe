@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class virgin{
+	int bodycount;
+	public:
+		void umm(){
+			cout<<"enter your bodycount=";
+			cin>>bodycount;
+		
+		if(bodycount==0){
+			cout<<"Santa ke pass bhi tin HOE HOE HOE ,tere pass ek bhi nahi :D";
+		}
+		else if(bodycount>0 && bodycount<5){
+			cout<<"full majje ni life (; ";
+		}
+		else{
+			cout<<"apne paapo ka Prayaschit krne k liye Jesus ko nariyal chadha kr aa ";
+		}
+		
+	}
+};
+int main(){
+	virgin v;
+	v.umm();
+	return 0;
+}
